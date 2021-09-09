@@ -1,0 +1,26 @@
+.topnav {
+    font-family: Arial, Helvetica;
+    list-style: none ;
+    padding: 0px;
+    background-color: #1E2022;
+    width: 100%;
+    margin: 0px;
+}
+ 
+.topnav li a {
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    margin-left: auto;
+    display: block;
+}
+
+.topnav li {
+    display: inline-block;
+    text-align: center;
+}
+
+.topnav li a:hover {
+    background-color: #52616B;
+
+}
