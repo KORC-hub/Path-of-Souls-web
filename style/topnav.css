@@ -1,26 +1,16 @@
 .topnav {
-    font-family: Arial, Helvetica;
-    list-style: none ;
-    padding: 0px;
-    background-color: #1E2022;
-    width: 100%;
-    margin: 0px;
-}
- 
-.topnav li a {
-    text-decoration: none;
-    color: white;
-    padding: 12px;
-    margin-left: auto;
-    display: block;
+    list-style: none;
 }
 
-.topnav li {
+.topnav li{
     display: inline-block;
-    text-align: center;
+    padding: 0px 20px;
 }
 
-.topnav li a:hover {
-    background-color: #52616B;
+.topnav li a {
+    transition: all 0.3s ease 0s;
+}
 
+.topnav li a:hover{
+    color: #a90000;
 }
