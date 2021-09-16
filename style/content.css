@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.content {
+    padding-top: 40px;
+	width: 90%;
+	margin: 20px auto;
+}
+
+.content h2 {
+    font-size: 35px;
+}
+
+.content h3 {
+    font-size: 20px;
+    padding: 30px;
+}
+
+.content img {
+    padding: 40px;
+    margin-left: 80px;
+    width: 50%;
+    height: 50%;
+}
+
+.content a {
+    padding-left: 40px;
+    font-size: 16px;
+}
+
+.content p {
+    padding-left: 40px;
+    font-size: 15;
+}
+
+.content a:hover {
+    color: var(--second-color);
+}

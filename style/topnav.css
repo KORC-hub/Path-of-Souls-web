@@ -2,11 +2,13 @@
 
 .logo {
     font-size: 30px;
+    cursor: pointer;
+    margin-right: 660px;
     font-family: "Montserrat", sans-serif;
 }
 
 .logo:hover {
-    color: rgb(199, 113, 0);
+    color: var(--second-color);
 }
 
 .topnav {
@@ -19,10 +21,34 @@
 }
 
 .topnav li a {
-    transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;   
 }
 
 .topnav li a:hover{
-    color: rgb(199, 113, 0);
+    color: var(--second-color);
+}
+
+button {
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.perfil {
+    width: 40px;
+    height: 40px;
+    border: none;
+    padding: 9px 0px;
+    border-radius: 20px;
+    background-color: var(--second-color);
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: var(--second-color);
 }
 
