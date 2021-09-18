@@ -10,19 +10,23 @@
        <link rel="stylesheet" type="text/css" href="style/style.css">
        <link rel="stylesheet" type="text/css" href="style/topnav.css">
        <link rel="stylesheet" type="text/css" href="\style\content.css">
+       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+       integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+       crossorigin="anonymous"></script>
+       <script src="/scripts/script.js"></script> 
     </head>
     <body>
-        <header>
-            <a href="/" ><h1 class="logo">Path of Souls</h1></a>
-            <nav>
-                <ul class="topnav">
-                    <li><a href="template/art.html">Art</a></li>
-                    <li><a href="template/code.html">Code</a></li>
-                    <li><a href="template/effects.html">Effects</a></li>
-                </ul>
-            </nav>
-            <button class="perfil"></button>
-        </header>
+        <nav>
+            <ul class="menu">
+                <li class="logo"><a href="#">Path of Souls</a></li>
+                <li class="item"><a href="/template/art.html">Art</a></li>
+                <li class="item"><a href="/template/code.html">Code</a></li>
+                <li class="item"><a href="/template/effects.html">Effects</a></li>
+                <li class="item button"><a href="#">Login</a></li>
+                <li class="item button second"><a href="#">Sign in</a></li>
+                <li class="toggle"><span class="bars"></span></li>
+            </ul>
+        </nav>
         <main>
             <video autoplay mute loop>
                 <source src="resource/video_home.mp4" type="video/mp4">
