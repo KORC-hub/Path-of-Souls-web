@@ -66,7 +66,7 @@ main img {
     padding: 20px 40px;
     color: white;
     position: absolute;
-    top: 65%;
+    top: 50%;
     left: 10%;
     vertical-align: middle;
     font-family: 'Rubik One', sans-serif;
@@ -141,7 +141,7 @@ main img {
     .buttonPlay {
         font-size: 10vw;
         top: 50%;
-        left: 25%;
+        left: 20%;
         padding: 20px 10px;
     }
 
@@ -154,7 +154,7 @@ main img {
     
     .buttonPlay {
         font-size: 6vw;
-        top: 40%;
+        top: 35%;
         left: 32%;
     }
 
