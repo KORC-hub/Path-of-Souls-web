@@ -16,6 +16,7 @@
 
 body::-webkit-scrollbar {
     width: 3px;
+    height: 6px;
 }
 
 body::-webkit-scrollbar-track {
@@ -28,26 +29,49 @@ body::-webkit-scrollbar-thumb {
     border-radius: 4px;
 }
 
-main video {
-    padding-top: 0px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.download{
-    padding: 9px 25px;
-    background-color: var(--second-color);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
+.contentInicial {
+    position: relative;
+    display: inline-block;
+    text-align: center;
 }
 
 main img {
-    top: 0px;
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.buttonPlay{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    font-size: 85px;
+    padding: 7px 25px;
+    border: 1px solid var(--second-color);
+    background: transparent;
+    border-radius: 50px;
+    transform: translate(-50%, 40%);
+}
+
+.buttonPlay:hover {
+    background: var(--second-color);
+    color: aliceblue;
+}
+
+.titulo2{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    font-size: 85px;
+    background: transparent;
+    transform: translate(-50%, 100%);
+}
+
+.titulo3{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    font-size: 85px;
+    background: transparent;
+    transform: translate(-25%, 20%);
 }

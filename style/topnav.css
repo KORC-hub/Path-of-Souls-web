@@ -4,6 +4,7 @@
 nav {
     background: var(--main-color);
     padding: 5px 20px;
+    font-family: "Montserrat", sans-serif;
 }
 
 ul {
@@ -30,7 +31,7 @@ a:hover {
 }
 
 .logo a, .toggle a {
-    font-size: 25px;
+    font-size: 21px;
 }
 
 .button.second {
