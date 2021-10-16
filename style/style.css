@@ -10,9 +10,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
     background-color: var(--main-color);
     color: white;
-    font-family: "Montserrat", sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -124,15 +124,6 @@ main img {
     transform: translate(-50%, 100%);
 }
 
-.titulo3{
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    font-size: 85px;
-    background: transparent;
-    transform: translate(-25%, 20%);
-}
-
 @media all and (min-width: 468px) {
     .videoPresentacion{
         display: none;
@@ -150,7 +141,7 @@ main img {
     }
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 1100px) {
     
     .buttonPlay {
         font-size: 6vw;
