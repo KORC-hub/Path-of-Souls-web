@@ -41,6 +41,11 @@ main img {
     height: 100%;
 }
 
+main audio {
+    width: 90%;
+    padding-left: 60px;
+}
+
 .videoPresentacion {
     left: 0;
     width: 100%;
@@ -124,6 +129,15 @@ main img {
     transform: translate(-50%, 100%);
 }
 
+.titulo3{
+    position: absolute;
+    top: 25%;
+    left: 58%;
+    font-size: 35px;
+    background: transparent;
+    transform: translate(-50%, -50%);
+}
+
 @media all and (min-width: 468px) {
     .videoPresentacion{
         display: none;
@@ -160,5 +174,11 @@ main img {
     .titulo2{
         top: 25%;
         left: 50%;
+    }
+
+    .titulo3 {
+        font-size: 85px;
+        top: 50%;
+        left: 58%;
     }
 }

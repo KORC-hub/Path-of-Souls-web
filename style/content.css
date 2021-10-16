@@ -20,7 +20,9 @@
 
 .content h3 {
     font-size: 20px;
-    padding: 30px;
+    padding-left: 60px;
+    padding-top: 90px;
+    padding-bottom: 20px;
 }
 
 .content img {
@@ -43,3 +45,13 @@
 .content a:hover {
     color: var(--second-color);
 }
+
+.effectos audio {
+    width: 60%;
+}
+
+.effectos h3 {
+    padding-top: 30px;
+}
+
+
